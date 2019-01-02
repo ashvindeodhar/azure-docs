@@ -126,7 +126,7 @@ The containers automatically start receiving IP addresses from the allocated poo
 
 ### CNI network configuration file
 
-The CNI network configuration file is described in JSON format. It is, by default, present in `/etc/cni/net.d` for Linux and `c:\cni\netconf` for Windows. The file specifies the configuration of the plug-in and is different for Windows and Linux. The json that follows is a sample Linux configuration file, followed by an explanation for some of the key settings. You don't need to make any changes to the file:
+The CNI network configuration file is described in JSON format. It is, by default, present in `/etc/cni/net.d` for Linux and `C:\k\azurecni\netconf\` for Windows. The file specifies the configuration of the plug-in and is different for Windows and Linux. The json that follows is a sample Linux configuration file, followed by an explanation for some of the key settings. You don't need to make any changes to the file:
 
 ```json
 {
